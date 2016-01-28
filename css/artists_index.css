@@ -30,10 +30,11 @@ td {
 }
 
 #projectLinks {
-	margin-top: 25px;
+	margin-top: 5px;
 }
 
 #projectLinks img {
+	margin-top: 20px;
 	width: 70px;
 	height: 70px;
 }
