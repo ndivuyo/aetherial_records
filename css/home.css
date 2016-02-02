@@ -4,6 +4,40 @@ This is the stylesheet for the main content in the home page.
 */
 
 
+/*Announcement Bar*/
+#announceWrapper {
+	margin: 0 5% 0 5%;
+	padding: 0 0px 0 0px;
+}
+
+section.announceBar {
+	text-align: center;
+	margin-top: 60px;
+}
+
+div.announceBar {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+img.announceBar {
+	position: relative;
+	z-index: 0;
+	width: 980px;
+	height: auto;
+}
+
+#spotlightElement {
+	position: absolute;
+	z-index: 1;
+	margin-top: 22px;
+	margin-left: -774px;
+	width: 512px;
+	height: 289px;
+}
+/**/
+
+
 /*Featured Content*/
 td {
 	vertical-align: top;
