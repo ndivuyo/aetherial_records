@@ -8,58 +8,22 @@ var slideshowLength,
 	renderedIndex = 0;
 
 
-$(document).ready( function() {
+//Observing DOM changes, then starting slideshow when render complete
+var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+var observer = new MutationObserver( function(mutations) {
+	mutations.forEach( function() {
 
-	//Initiate slideshow for project when elements are added
-	$('ul.slideshow').bind("DOMNodeInserted", function() {
-
-		renderedIndex++;
+ 		renderedIndex++;
 
 		//Upon completion of appending elements, evaluate slideshow function
 		if (renderedIndex - 1 === slideshowLength) {
 			slideshow();
+			observer.disconnect();
 		}
-	});
+	})
 });
-
-
-//Slideshow function
-var slideshow = function() {
-	var target,
-		$moveImages = $('ul.slideshow li'),
-		lastImage = $moveImages.length - 1,
-		$slideshowMask = $('div.slideshow ul.slideshow'),
-		imageWidth = $moveImages.width();
-
-	//Active class to show current image
-	$moveImages.addClass('active');
-	$slideshowMask.css('width', imageWidth * (lastImage + 1) + 'px');
-
-	//Function to slide the image
-	var slideImage = function(target) {
-
-		$slideshowMask.stop(true, false).animate(
-			{'left': '-' + imageWidth * target + 'px'}, 300
-		);
-		$moveImages.removeClass('active').eq(target).addClass('active');
-	};
-
-	//Previous Image
-	$('.prevImage').on('click', function() {
-
-		target = $('ul.slideshow li.active').index();
-		target === 0 ? target = lastImage : target --;
-		slideImage(target);
-	});
-
-	//Next Image
-	$('.nextImage').on('click', function() {
-
-		target = $('ul.slideshow li.active').index();
-		target === lastImage ? target = 0 : target ++;
-		slideImage(target);
-	});
-};
+var mutationTarget = document.querySelector('ul.slideshow');
+observer.observe(mutationTarget, { childList: true });
 
 
 //Loads projects data from JSON file and renders project on HTML document
@@ -72,15 +36,14 @@ var renderProject = function(projectName) {
 
 				slideshowLength = $(this.slideshow).length - 1;
 
-				//Add Images for slideshow
+				//Add Images or Videos for slideshow
 				$(this.slideshow).each( function() {
 					var newLi = document.createElement('li'),
 						newSpan = document.createElement('span'),
-						isImage, newContent;
+						newContent;
 
 					//Determine if image or video
-					isImage = this.indexOf("images/");
-					if(isImage !== -1) {
+					if(this.indexOf("images/") !== -1) {
 						newContent = document.createElement('img');
 						$(newContent).attr('alt', this);
 					} else {
@@ -116,5 +79,45 @@ var renderProject = function(projectName) {
 				return false;
 			}
 		});
+	});
+};
+
+
+//Slideshow function
+var slideshow = function() {
+
+	var target,
+		$moveImages = $('ul.slideshow li'),
+		lastImage = $moveImages.length - 1,
+		$slideshowMask = $('div.slideshow ul.slideshow'),
+		imageWidth = $moveImages.width();
+
+	//Active class to show current image
+	$moveImages.addClass('active');
+	$slideshowMask.css('width', imageWidth * (lastImage + 1) + 'px');
+
+	//Function to slide the image
+	var slideImage = function(target) {
+
+		$slideshowMask.stop(true, false).animate(
+			{'left': '-' + imageWidth * target + 'px'}, 300
+		);
+		$moveImages.removeClass('active').eq(target).addClass('active');
+	};
+
+	//Previous Image
+	$('.prevImage').on('click', function() {
+
+		target = $('ul.slideshow li.active').index();
+		target === 0 ? target = lastImage : target --;
+		slideImage(target);
+	});
+
+	//Next Image
+	$('.nextImage').on('click', function() {
+
+		target = $('ul.slideshow li.active').index();
+		target === lastImage ? target = 0 : target ++;
+		slideImage(target);
 	});
 };

@@ -16,7 +16,6 @@ section.announceBar {
 }
 
 div.announceBar {
-	display: inline-block;
 	white-space: nowrap;
 }
 

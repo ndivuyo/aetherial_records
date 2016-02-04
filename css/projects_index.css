@@ -6,7 +6,6 @@ This is the stylesheet for the main content in the individual project pages.
 
 /*Slideshow*/
 section.slideshow {
-	overflow: hidden;
 	white-space: nowrap;
 	text-align: center;
 }
