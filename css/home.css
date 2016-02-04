@@ -17,6 +17,7 @@ section.announceBar {
 
 div.announceBar {
 	white-space: nowrap;
+	margin-left: 15px;
 }
 
 img.announceBar {
