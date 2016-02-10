@@ -12,7 +12,7 @@
 		"title" : "ztba",
 		"artists" : ["zzara"],
 		"year" : "TBA",
-		"cover" : "images/releases/zzaraTBA.png",
+		"cover" : "images/releases/zzara-TBA.png",
 		"site" : ""
 	},
 
@@ -20,7 +20,7 @@
 		"title" : "mtba",
 		"artists" : ["macro/micro"],
 		"year" : "TBA",
-		"cover" : "images/releases/macromicroTBA.png",
+		"cover" : "images/releases/macro-micro-TBA.png",
 		"site" : ""
 	},
 
@@ -28,7 +28,7 @@
 		"title" : "itba",
 		"artists" : ["integrate"],
 		"year" : "TBA",
-		"cover" : "images/releases/integrateTBA.png",
+		"cover" : "images/releases/integrate-TBA.png",
 		"site" : ""
 	}
 
