@@ -10,20 +10,20 @@
 		"question3" : "A lot has to do with found things. Whatever things we see around, we try to use in both meant-to and not-meant-to ways. On the hardware side it’s a camera, guitar, controllers like monome, lemur, wacom tablet, conventional music instruments. On the software side it’s Live, Reaktor, Max, Adobe products. We are also very fond of exploring new options, so the list constantly grows. Sometimes we use some things just ones, sometimes there are things the we constantly go back to.",
 		"question4" : "If we had this opportunity, we’d just ask everybody to turn all the equipment off and be quiet for a minute. That would be quite an experience.",
 		"albums" : ["scintilla"],
-		"projects" : ["juniper", "invisible wall", "nature 2 numbers"]
+		"projects" : ["cats cradle", "plastic ocean / plastic forest", "juniper", "invisible wall", "nature 2 numbers"]
 	},
 
 	{
 		"name" : "integrate",
 		"photo" : "images/artists/integrate-profile.png",
-		"links" : ["http://www.cargocollective.com/integrate", "http://soundcloud.com/integratelive", "http://www.youtube.com/channel/UCEY7fQguIrDvaW5qiSEXZNQ","http://www.facebook.com/integrateelectronic"],
+		"links" : ["http://www.dillonbastan.com", "http://soundcloud.com/integratelive", "https://www.youtube.com/channel/UCWFyu-oO7cUbt4wo7Eho5gw","https://www.facebook.com/dillonbastanartist"],
 		"linkNames" : ["website", "soundcloud", "youtube", "facebook"],
 		"question1" : "i am dillon bastan. i live in la right now. i make music, design and develop music tools, sound design, and made this site for these starving artists. i strive to broaden my work with mediums, technologies, and collaborators. ",
 		"question2" : "depends on the project",
 		"question3" : "mainly max for developing plugins, lemur for ipad, and live for daw",
 		"question4" : "",
-		"albums" : ["itba"],
-		"projects" : ["juniper"]
+		"albums" : ["nostalgia"],
+		"projects" : ["cats cradle", "juniper"]
 	},
 
 	{
@@ -48,7 +48,7 @@
 		"question2" : "My creativity doesn't have any borders or space restrictions",
 		"question3" : "I use my imagination.",
 		"question4" : "Run!!!",
-		"albums" : ["ztba"],
+		"albums" : ["lse/comeback"],
 		"projects" : []
 	}
 

@@ -1,6 +1,26 @@
 {"projects" : [
 
 	{	
+		"title" : "cats cradle",
+		"year" : "2016",
+		"mainImage" : "images/projects/catsCradle/main.png",
+		"summary" : "",
+		"description" : "",
+		"artists" : ["the2vvo", "integrate"],
+		"slideshow" : ["images/projects/catsCradle/1.png", "images/projects/catsCradle/2.png", "images/projects/catsCradle/3.png", "images/projects/catsCradle/4.png", "images/projects/catsCradle/5.png", "images/projects/catsCradle/6.png", "images/projects/catsCradle/7.png", "images/projects/catsCradle/8.png", "images/projects/catsCradle/9.png"]
+	},
+
+	{	
+		"title" : "plastic ocean / plastic forest",
+		"year" : "2016",
+		"mainImage" : "images/projects/plasticOcean_plasticForest/main.png",
+		"summary" : "Exhibited as part of group exhibition // Collective Solutions// in 106 Studio in Santa Monica. Interactive noise sculpture is a study of repetition, sound and space.",
+		"description" : "Exhibited as part of group exhibition // Collective Solutions// in 106 Studio in Santa Monica. Interactive noise sculpture is a study of repetition, sound and space. Piezo microphones are fixed to the skeleton of both elements, hence tactile interaction results in creation of soundscape.",
+		"artists" : ["the2vvo"],
+		"slideshow" : ["http://player.vimeo.com/video/161148558", "images/projects/plasticOcean_plasticForest/1.png", "images/projects/plasticOcean_plasticForest/2.png", "images/projects/plasticOcean_plasticForest/3.png", "images/projects/plasticOcean_plasticForest/4.png", "images/projects/plasticOcean_plasticForest/5.png", "images/projects/plasticOcean_plasticForest/6.png", "images/projects/plasticOcean_plasticForest/7.png", "images/projects/plasticOcean_plasticForest/8.png", "images/projects/plasticOcean_plasticForest/9.png", "images/projects/plasticOcean_plasticForest/10.png"]
+	},
+
+	{	
 		"title" : "juniper",
 		"year" : "2016",
 		"mainImage" : "images/projects/juniper/main.png",
@@ -14,8 +34,8 @@
 		"title" : "invisible wall",
 		"year" : "2015",
 		"mainImage" : "images/projects/invisibleWall/main.png",
-		"summary" : "",
-		"description" : "",
+		"summary" : "The concept splits between spatial object hidden in a dark space of the gallery as a static part and light and sound components to the installation as an interactive part.",
+		"description" : "The concept splits between spatial object hidden in a dark space of the gallery as a static part and light and sound components to the installation as an interactive part. Audience is encouraged to enter dark space and flash the light onto the sculpture which reacts to light and thus change the soundscape within the space.",
 		"artists" : ["the2vvo"],
 		"slideshow" : ["http://player.vimeo.com/video/142641903", "images/projects/invisibleWall/wall1.png", "images/projects/invisibleWall/wall2.png", "images/projects/invisibleWall/wall3.png"]
 	},
@@ -24,8 +44,8 @@
 		"title" : "nature 2 numbers",
 		"year" : "2015",
 		"mainImage" : "images/projects/nature2numbers/main.png",
-		"summary" : "",
-		"description" : "",
+		"summary" : "The piece is constructed out of found objects (plants, stones, sticks, etc.) in the Ile-Alatau mountain range, near Almaty, Kazakhstan.",
+		"description" : "The piece is constructed out of found objects (plants, stones, sticks, etc.) in the Ile-Alatau mountain range, near Almaty, Kazakhstan. The video and sound that was captured from the objects is digitally processed and arranged to form the final composition.",
 		"artists" : ["the2vvo"],
 		"slideshow" : ["http://player.vimeo.com/video/147218119"]
 	}

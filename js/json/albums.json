@@ -1,18 +1,26 @@
 {"albums" : [
 
 	{
-		"title" : "scintilla",
-		"artists" : ["the2vvo"],
-		"year" : "TBA",
-		"cover" : "images/releases/scintilla.png",
+		"title" : "lse/comeback",
+		"artists" : ["zzara"],
+		"year" : "2016",
+		"cover" : "images/releases/zzara-comeback.png",
 		"site" : ""
 	},
 
 	{
-		"title" : "ztba",
-		"artists" : ["zzara"],
-		"year" : "TBA",
-		"cover" : "images/releases/zzara-TBA.png",
+		"title" : "scintilla",
+		"artists" : ["the2vvo"],
+		"year" : "2016",
+		"cover" : "images/releases/the2vvo-scintilla.png",
+		"site" : ""
+	},
+
+	{
+		"title" : "nostalgia",
+		"artists" : ["integrate"],
+		"year" : "2016",
+		"cover" : "images/releases/integrate-TBA.png",
 		"site" : ""
 	},
 
@@ -21,14 +29,6 @@
 		"artists" : ["macro/micro"],
 		"year" : "TBA",
 		"cover" : "images/releases/macro-micro-TBA.png",
-		"site" : ""
-	},
-
-	{
-		"title" : "itba",
-		"artists" : ["integrate"],
-		"year" : "TBA",
-		"cover" : "images/releases/integrate-TBA.png",
 		"site" : ""
 	}
 
