@@ -1,13 +1,23 @@
 {"projects" : [
 
 	{	
+		"title" : "lse",
+		"year" : "2016",
+		"mainImage" : "images/projects/lse/main.png",
+		"summary" : "",
+		"description" : "",
+		"artists" : ["zzara", "the2vvo"],
+		"slideshow" : ["http://www.youtube.com/embed/nVgSnbJa66s", "images/projects/lse/1.png", "images/projects/lse/2.png", "images/projects/lse/3.png"]
+	},
+
+	{	
 		"title" : "cats cradle",
 		"year" : "2016",
 		"mainImage" : "images/projects/catsCradle/main.png",
-		"summary" : "",
-		"description" : "",
+		"summary" : "Installation takes form of a medium size ‘on table’ object with several vertical poles connected to the flat base.",
+		"description" : "Installation takes form of a medium size ‘on table’ object with several vertical poles connected to the flat base. Poles on the table are connected to each other with rubber bands.Number of poles are equipped with pressure sensors, so that when rubber bands are touched by the guest - pressure sensor starts to react, by sending data to microcontroller that is connected to computer which processes the data and generates sound. Hence every touch alters the soundscape produced.",
 		"artists" : ["the2vvo", "integrate"],
-		"slideshow" : ["images/projects/catsCradle/1.png", "images/projects/catsCradle/2.png", "images/projects/catsCradle/3.png", "images/projects/catsCradle/4.png", "images/projects/catsCradle/5.png", "images/projects/catsCradle/6.png", "images/projects/catsCradle/7.png", "images/projects/catsCradle/8.png", "images/projects/catsCradle/9.png"]
+		"slideshow" : ["http://www.youtube.com/embed/iqVTpXTAfJ8", "images/projects/catsCradle/1.png", "images/projects/catsCradle/2.png", "images/projects/catsCradle/3.png", "images/projects/catsCradle/4.png", "images/projects/catsCradle/5.png", "images/projects/catsCradle/6.png", "images/projects/catsCradle/7.png", "images/projects/catsCradle/8.png", "images/projects/catsCradle/9.png"]
 	},
 
 	{	
@@ -24,8 +34,8 @@
 		"title" : "juniper",
 		"year" : "2016",
 		"mainImage" : "images/projects/juniper/main.png",
-		"summary" : "",
-		"description" : "",
+		"summary" : "Live electroacoustic improvisation in 29 Palms.",
+		"description" : "Live electroacoustic improvisation in 29 Palms.",
 		"artists" : ["the2vvo", "integrate"],
 		"slideshow" : ["http://player.vimeo.com/video/153322709", "images/projects/juniper/jun1.png", "images/projects/juniper/jun2.png", "images/projects/juniper/jun3.png", "images/projects/juniper/jun4.png", "images/projects/juniper/jun5.png", "images/projects/juniper/jun6.png", "images/projects/juniper/jun7.png"]
 	},

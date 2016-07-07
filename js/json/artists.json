@@ -10,7 +10,7 @@
 		"question3" : "A lot has to do with found things. Whatever things we see around, we try to use in both meant-to and not-meant-to ways. On the hardware side it’s a camera, guitar, controllers like monome, lemur, wacom tablet, conventional music instruments. On the software side it’s Live, Reaktor, Max, Adobe products. We are also very fond of exploring new options, so the list constantly grows. Sometimes we use some things just ones, sometimes there are things the we constantly go back to.",
 		"question4" : "If we had this opportunity, we’d just ask everybody to turn all the equipment off and be quiet for a minute. That would be quite an experience.",
 		"albums" : ["scintilla"],
-		"projects" : ["cats cradle", "plastic ocean / plastic forest", "juniper", "invisible wall", "nature 2 numbers"]
+		"projects" : ["lse", "cats cradle", "plastic ocean / plastic forest", "juniper", "invisible wall", "nature 2 numbers"]
 	},
 
 	{
@@ -49,7 +49,7 @@
 		"question3" : "I use my imagination.",
 		"question4" : "Run!!!",
 		"albums" : ["lse/comeback"],
-		"projects" : []
+		"projects" : ["lse"]
 	}
 
 ]}
